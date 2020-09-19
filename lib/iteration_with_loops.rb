@@ -4,5 +4,6 @@ def find_even_values(src)
   while count < main_array.length do
     even_num = (main_array[count]).remainder(2) != 0 
     puts even_num
-    count += 1 
+    count += 1
+  end
 end
