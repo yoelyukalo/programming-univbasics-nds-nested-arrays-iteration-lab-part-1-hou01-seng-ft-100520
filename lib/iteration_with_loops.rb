@@ -5,7 +5,7 @@ def find_even_values(src)
   while count < main_array.length do
     if main_array[count][inner_count].even? = true
       puts main_array[count][inner_count]
-    
+    end
     
     inner_count += 1 
     count += 1
